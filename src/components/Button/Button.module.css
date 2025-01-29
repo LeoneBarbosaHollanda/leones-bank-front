@@ -1,0 +1,22 @@
+.button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(16, 120, 68);
+    border: none;
+    border-radius: 8px;
+    color: rgb(224, 224, 224);
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    /* Adicionando a fonte Poppins */
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #020202;
+}
+
+.button:disabled {
+    background-color: #4a4a4a;
+    cursor: not-allowed;
+}

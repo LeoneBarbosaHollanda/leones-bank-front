@@ -1,0 +1,26 @@
+.input {
+    width: 100%;
+    max-width: 375px;
+    /* Add this to control input width */
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background-color: #1f1f1f;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 15px;
+    transition: border 0.3s ease;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+.input::placeholder {
+    color: text-gray-500;
+}
+
+.input:focus {
+    border-color: #22c55e;
+    outline: none;
+}
